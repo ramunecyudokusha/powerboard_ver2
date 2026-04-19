@@ -5169,7 +5169,7 @@
 		(descr "JST XH series connector, S2B-XH-A-1 (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH horizontal")
 		(property "Reference" "J4"
-			(at 1.25 -5.1 90)
+			(at 1.5548 -3.6618 270)
 			(layer "F.SilkS")
 			(uuid "e3be9e30-2ed8-4845-9ef3-3d165d590b58")
 			(effects
@@ -7504,6 +7504,18 @@
 		(layer "Edge.Cuts")
 		(uuid "bdf6f258-aa28-4be7-ba60-3b57ace72f8f")
 	)
+	(gr_text "24V out\n\n"
+		(at 57.2898 118.8086 0)
+		(layer "F.SilkS")
+		(uuid "04e3f9e3-385a-422a-a999-e4154384dc01")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "+       -"
 		(at 106.7182 121.374 90)
 		(layer "F.SilkS")
@@ -7512,19 +7524,6 @@
 			(font
 				(size 3 3)
 				(thickness 0.3)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "24v in"
-		(at 102.8066 100.3428 90)
-		(layer "F.SilkS")
-		(uuid "311e0d91-0d2f-4741-91ce-74587b341340")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -7555,6 +7554,30 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "24V in\n"
+		(at 95.7708 113.8302 90)
+		(layer "F.SilkS")
+		(uuid "7b3b0400-59c2-45ff-8fd0-e8aca1413123")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Signal in"
+		(at 62.827 60.87 270)
+		(layer "F.SilkS")
+		(uuid "c5335403-9ca1-40e6-a559-96528097d4f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "+       -"
 		(at 54.4704 93.0276 270)
 		(layer "F.SilkS")
@@ -7580,8 +7603,8 @@
 		)
 	)
 	(gr_text_box "有明高専ロボット研究部\n電源基板2026ver1\nby T.ichimaru\n"
-		(start 57.2898 114.5414)
-		(end 72.86 123.0758)
+		(start 57.1882 116.5734)
+		(end 72.7584 123.2028)
 		(margins 1.0025 1.0025 1.0025 1.0025)
 		(layer "F.SilkS")
 		(uuid "8781e87d-8e74-4524-ad18-4279d373e629")
